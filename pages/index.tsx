@@ -1,13 +1,14 @@
 import React from "react";
-
-import { Container, Header, Main, Footer, Cards } from "@components";
+import { Container,  Main, Footer, Travel, Navbar, Banner, Stat } from "@components";
 
 const Home: React.FC = () => {
   return (
     <Container>
-      <Header />
-      <Main />
-      <Cards />
+      <Navbar />
+      <Main title="Uttrakhand Tourism" btnTitle="" btnbg="" height={400}/>
+      <Travel/>
+      <Banner/>
+      <Stat/>
       <Footer />
     </Container>
   );

@@ -1,8 +1,9 @@
 import React from "react";
-import Image from "next/image";
 
 export const Logo: React.FC = () => {
   return (
-    <Image src="/icons/nextjs-icon.svg" alt="nextjs" width="96" height="58" />
+    <a href="/" className="flex items-center text-3xl">
+      <span className="self-center text-purple-700   font-bold whitespace-nowrap dark:text-white">Paryatak</span>
+    </a>
   );
 };

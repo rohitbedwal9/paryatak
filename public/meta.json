@@ -2,24 +2,46 @@
   "name": "paryatan",
   "plugins": [
     {
-      "name": "TailwindCSS",
-      "description": "A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.",
-      "url": "https://tailwindcss.com/docs"
+      "name": "HILL STATION",
+      "img": "/images/hill-station.jpg",
+      "tourName": "130 Destination",
+      "tourImage": "/images/destination.jpg"
     },
     {
-      "name": "CSS / styled-jsx",
-      "description": "Next.js comes with built-in support for CSS and styled-jsx. Styled-jsx is full, scoped and component-friendly CSS support for JSX (rendered on the server or the client).",
-      "url": "https://github.com/vercel/styled-jsx"
+      "name": "TREKKING",
+      "img": "/images/trekking.jpg",
+      "tourName": "1266 Hotels",
+      "tourImage": "/images/hotels.jpg"
     },
     {
-      "name": "Recoil",
-      "description": "Recoil works and thinks like React. Add some to your app and get fast and flexible shared state.",
-      "url": "https://recoiljs.org/docs/introduction/installation"
+      "name": "CHAR DHAM",
+      "img": "/images/char-dham.jpg",
+      "tourName": "34 tour Packages",
+      "tourImage": "/images/tourpack.jpg"
     },
     {
-      "name": "Github Actions",
-      "description": "GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub.",
-      "url": "https://docs.github.com/en/actions"
+      "name": "SIT & RELAX",
+      "img": "/images/sit-relax.jpeg",
+      "tourName": "384 Attraction",
+      "tourImage": "/images/attraction.jpg"
+    }
+  ],
+  "tourism": [
+    {
+      "name": "130 Destination",
+      "img": "/images/destination.jpg"
+    },
+    {
+      "name": "1266 Hotels",
+      "img": "/images/hotels.jpg"
+    },
+    {
+      "name": "34 tour Packages",
+      "img": "/images/tourpack.jpg"
+    },
+    {
+      "name": "384 Attraction",
+      "img": "/images/attraction.jpg"
     }
   ]
 }
